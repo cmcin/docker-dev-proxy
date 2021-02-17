@@ -24,3 +24,9 @@ environment:
 
 ## Script Config
 The proxy container configurations can be adjusted with an env file. Rename .env.example to .env and change the required settings there.
+
+## Other Config
+If you use the LOCAL_HOSTNAME variable in docker-compose, add the following to `~/.profile`
+```
+export LOCAL_HOSTNAME=localhost
+```
